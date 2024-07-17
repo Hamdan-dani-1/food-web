@@ -1,0 +1,214 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* navbar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.logo {
+    margin: 10px 35px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    color: black;
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar {
+    position: absolute;
+    
+   
+}
+
+#navbar ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 3px 22px;
+    border-radius: 20px;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+/* home section */
+
+#home {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background-image: url(leaves-3703360_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0
+    ;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+#home h1 {
+    color: #fff;
+    text-align: center;
+
+}
+
+.primary {
+    font-family: "Kanit", sans-serif;
+    font-size: 3rem;
+    padding: 12px;
+}
+.secondary {
+    font-family: "Kanit", sans-serif;
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+#home p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgba(94, 24, 24, 0.459);
+    color: wheat;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin: 12px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+
+
+/* services */
+
+
+.services{
+    display: flex;
+    margin:34px;
+    background-color: #f1e5e58c;
+    
+}
+.box{
+    border: 2px solid rgba(0, 0, 0, 0.39);
+  border-radius: 20px; 
+  
+  margin: 1rem; 
+  padding: 0px 33px;
+}
+.box img{
+height:150px;
+display: block;
+margin: auto;
+}
+.client-section{
+
+
+}
+.client-items img{
+   height: 160px;
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-section::before{
+    content: "";
+    position: absolute;
+    background-image: url(flowers-276014_1920.jpg);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+.client-section{
+    position: relative;
+}
+.contact{
+    position: relative;
+   
+  
+}
+.contact::before{
+    content: "";
+    position: absolute;
+    background: url(contact-us-scaled-1.jpg) center no-repeat ;
+    height: 110%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+footer{
+    background-color: black;
+}
+.s{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+.contact-box input,
+.contact-box text{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    border: none;
+}
+.contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-radius: 9px;
+}

@@ -1,0 +1,19 @@
+#home h1{
+    width: max-content;
+    font-size: 1.4rem;
+}
+.client-section::before{
+    width: 150%;
+}
+.contact::before{
+    width: 150%;
+}
+#home::before{
+    width: 150%;
+}
+section.services-container {
+    width: 23rem;
+}
+footer{
+    width: 100%;
+}
